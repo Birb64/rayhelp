@@ -11,9 +11,9 @@ using namespace std;
 #ifndef ERRORMAN_H
 #define ERRORMAN_H
 
-// GO BACK AND CHANGE THIS TO std::vector<const char*> FOR BETTER FLEXABILITY
 int maxTechSounds = 19;
 
+// To be removed
 const char* techsoundnames[19] = {
 "boot.wav", 
 "delete.wav", 
