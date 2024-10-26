@@ -315,10 +315,7 @@ Vector2 PlayerInput(){
     return returner;
 }
 
-// A test function for saving data to an outside file
-void SaveFuncTest(const char* Filename, char* dataToSave){
-    SaveFileText(Filename, dataToSave);
-}
+
 
 Button CreateButton(Texture2D tex, Rectangle mclick, Sound snd, std::string text){
     Button newButton{tex, text};
