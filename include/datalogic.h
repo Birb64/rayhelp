@@ -308,8 +308,6 @@ Vector3 ProcessBasicPhysics(Entity et){
 
 // A prototype player input for a different game entirely
 Vector2 PlayerInput(){
-
-    
     Vector2 returner{((IsKeyDown(KEY_RIGHT))-(IsKeyDown(KEY_LEFT)))*2, ((IsKeyDown(KEY_DOWN))-(IsKeyDown(KEY_UP)))*2};
     //Vector2 returner{(GAMEPAD_AXIS_LEFT_X), (GAMEPAD_AXIS_LEFT_Y)};
     return returner;
@@ -359,7 +357,6 @@ void DrawButton(Button* btn, float size, std::string text, Color color, bool out
     else{
         DrawText(text.c_str(), btn->pos.x+btn->offset.x, btn->pos.y+btn->offset.y, btn->tscale, color);
     }
-    
     btn->mclick.x = btn->pos.x;
     btn->mclick.y = btn->pos.y;
 }
