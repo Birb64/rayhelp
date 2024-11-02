@@ -16,3 +16,4 @@ int Abs(int value);
 float Abs(float value);
 double Abs(double value);
 
+struct Vector3int;

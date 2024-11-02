@@ -1,6 +1,7 @@
 #include "raylib.h"
 #include <string>
 #include <iostream>
+#include <vector>
 
 ///
 //
@@ -21,6 +22,7 @@ int dT(){
 };
 
 #pragma region Structs
+
 // Structure for a level
 typedef struct Level{
     // Worldspace

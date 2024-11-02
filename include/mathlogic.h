@@ -1,6 +1,5 @@
 #include "raylib.h"
 
-
 ///
 //
 //      Created by Birb64 2024
@@ -9,6 +8,7 @@
 ///
 #ifndef MATHLOGIC_H
 #define MATHLOGIC_H
+
 
 // Return a sign of your int
 int SignOf(int sign){
@@ -128,6 +128,13 @@ double Abs(double value){
     }
 };
 
+typedef struct Vector3int{
+
+    int x; // X pos
+    int y; // Y pos
+    int z; // Z pos
+
+}Vector3int;
 
 
 
