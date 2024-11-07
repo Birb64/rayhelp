@@ -40,6 +40,14 @@ void DebugVector3(Vector3 v3){
     TraceLog(7, "debugged Vector3 set is to [%s] with frametime of [%d]", usethis, GetFrameTime());
 
 }
+// A simpler way to debug Vectors 2 and 3
+string DebugVector3Str(Vector3 v3){
+    std::string usethis;
+    usethis = "X: " + std::to_string(v3.x) + " Y: " + std::to_string(v3.y) + " Z: " + std::to_string(v3.z) + "\n";
+    return usethis.c_str();
+    TraceLog(7, "debugged Vector3 set is to [%s] with frametime of [%d]", usethis, GetFrameTime());
+
+}
 void DebugVector2(Vector2 v2){
     std::string usethis;
     usethis = "X: " + std::to_string(v2.x) + " Y: " + std::to_string(v2.x) + "\n";
